@@ -1,0 +1,8 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file alias="image_0">images/suse_logo.jpeg</file>
+     <file alias="image_1">images/qt_logo.jpg</file>
+     <file alias="image_2">images/kde_logo.png</file>
+     <file alias="image_3">images/pinguin_logo.jpeg</file>
+ </qresource>
+ </RCC>
