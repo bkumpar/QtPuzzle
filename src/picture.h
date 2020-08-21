@@ -8,7 +8,7 @@
 #ifndef PICTURE_H
 #define PICTURE_H
 #include <QPixmap>
-#define IMAGES_COUNT 4
+#define IMAGES_COUNT 8
 
 class Picture : public QPixmap {
 public:
