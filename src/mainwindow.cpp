@@ -14,6 +14,7 @@
 
 MainWindow::MainWindow()
 {
+    this->setWindowIcon(QIcon(":main"));
     m_controller = new Controller();
     m_timer = new QTimer();
     m_timer->setInterval(1000);
@@ -68,6 +69,7 @@ void MainWindow::keyPressEvent ( QKeyEvent * event )
         event->accept();
         break;
     case Qt::Key_F4:
+        this->statusBar()->showMessage(tr(""));
         m_controller->changeImage();
         m_timer->stop();
         this->repaint();
